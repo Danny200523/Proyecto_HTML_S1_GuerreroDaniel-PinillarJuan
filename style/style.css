@@ -1,0 +1,15 @@
+@import url('./variables.css');
+body{
+    background-color: black;
+    background-image: url('../img/fondo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media(max-width:430px){
+    body{
+        background-color: black;
+        background-image: url('../img/fondo.png');
+        background-size: 100vw 220vw;
+        background-repeat: no-repeat;
+    }
+}
