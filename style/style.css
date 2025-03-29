@@ -27,10 +27,61 @@ body{
     margin-left: 24vw;
     width: 50.156vw;
     height: 39.635vw;
-    border: solid #707070;
+    border: 1px solid #707070;
     border-radius: 3.49vw;
     background-color: #FFFF;
     position: absolute;
+}
+.img1{
+    width: 5.363vw;
+    margin-left: 22vw;
+    margin-top: 3vw;
+}
+.text1{
+    font-family: "prol";
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+    margin-left: 22.6vw;
+}
+.text2{
+    font-family: "pror";
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+.text3{
+    font-family: "prol";
+    font-size: 0.9vw;
+    text-align: center;
+    margin-top: 1.198vw;
+}
+.text4{
+    font-family: "prol";
+    font-size: 1.302vw;
+    margin-top: 0.9vw;
+    margin-left: 10.5vw;
+}
+.box1{
+    width: 29vw;
+    height: 2.604vw;
+    border: 1px solid #707070;
+    border-radius: 1.042vw;
+    margin-left: 10.5vw;
+    margin-top: 0.3vw;
+}
+.text5{
+    font-family: "prol";
+    font-size: 1.302vw;
+    margin-top: 1vw;
+    margin-left: 10.5vw;
+}
+.box2{
+    width: 29vw;
+    height: 2.604vw;
+    border: 1px solid #707070;
+    border-radius: 1.042vw;
+    margin-left: 10.5vw;
+    margin-top: 0.3vw;
 }
 @media(max-width:430px){
     @keyframes logo {
