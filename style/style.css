@@ -13,6 +13,10 @@
     67%{opacity: 0;}
     100%{opacity: 1;}
 }
+@keyframes op {
+    
+}
+
 body{
     background-color: black;
     background-image: url('../img/fondo.png');
@@ -38,7 +42,6 @@ body{
     position: absolute;
     animation: login 15s;
     animation-iteration-count: 1;
-    opacity: 0;
 }
 .img1{
     width: 5.363vw;
@@ -99,12 +102,15 @@ body{
     border: 1px solid #ff6f2c;
     margin-left: 18vw;
     margin-top: 2vw;
+    text-decoration: none;
 }
 .text6{
     font-family: "prol";
     font-size: 1vw;
     text-align: center;
     margin-top: 0.8vw;
+    color: white;
+    text-decoration: none;
 }
 .text7{
     font-family: "prol";
@@ -117,9 +123,10 @@ body{
     height: 28.594vw;
     border: 1px solid #707070;
     border-radius: 1.042vw;
-    margin-top: -20vw;
+    margin-top: -40vw;
     margin-left: 25vw;
     background-color: white;
+    opacity: 0;
 }
 .img1-1{
     width: 5.363vw;
@@ -139,12 +146,20 @@ body{
     margin-top: 2vw;
 }
 .img2{
-    margin-left: 23vw;
-    margin-top: 1vw;
-    width: 5vw;
+    margin-left: 21.5vw;
+    margin-top: 0.6vw;
+    width: 7vw;
 }
-.box3:active{
-
+.text9{
+    font-family: "pror";
+    font-size: 2vw;
+    text-align: center;
+}
+.text10{
+    font-family: "prol";
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 1vw;
 }
 @media(max-width:430px){
     @keyframes logo {
