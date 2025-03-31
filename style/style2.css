@@ -84,70 +84,50 @@ body{
     margin-top: 1vw;
 }
 .underline{
-    width: 99.8vw;
+    width: 100vw;
     height: 1vw;
     margin-left: -0.5vw;
     margin-top: -40%;
     border-bottom: 1px solid #707070;
+    display: flex;
     position: absolute;
 }
 .img{
-    margin-left: 8vw;
-    margin-top: -0.3rem;
     width: 1.5vw;
     height: 1.5vw;
     object-fit: cover;
-    position: absolute;
+
 }
 .text11{
-    margin-left: 10vw;
-    margin-top: -1rem;
     font-family: "pror";
 }
 .img1{
-    margin-left: 19vw;
-    margin-top: -0.2rem;
     width: 1.2vw;
     height: 1.2vw;
     object-fit: cover;
-    position: absolute;
+
 }
 .text12{
-    margin-left: 21vw;
-    margin-top: -1rem;
     font-family: "pror";
 }
 .img3{
-    margin-left: 30vw;
-    margin-top: -0.2rem;
     width: 0.9vw;
     height: 1.4vw;
     object-fit: cover;
-    position: absolute;
 }
 .text13{
-    margin-left: 31.4vw;
-    margin-top: -1rem;
     object-fit: scale-down;
     font-family: "pror";
 }
 .img4{
-    margin-left: 48vw;
-    margin-top: -1.3rem;
     width: 1.7vw;
     object-fit: cover;
-    position: absolute;
 }
 .img5{
-    margin-left: 62vw;
-    margin-top:-0.7rem;
     width: 1.3vw;
     object-fit: cover;
-    position: absolute;
 }
 .text14{
-    margin-left: 64vw;
-    margin-top: -1.5rem;
     object-fit: scale-down;
     font-family: "pror";
 }
