@@ -1,5 +1,5 @@
 @import url('./variables.css');
-/*@keyframes op {
+@keyframes op {
     0%{
         transform: (0.5);
         opacity: 1;
@@ -26,11 +26,19 @@
         background-size: 100% 160%;
         background-repeat: no-repeat;}
     100%{background-color: white;}
-}*/
+}
 @keyframes rellenar {
     to{
         stroke-dasharray: var(--porcentaje) 100
     }
+}
+@keyframes fade {
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.todo{
+    animation: fade 6s;
 }
 body{
     background-color: white;    
@@ -330,6 +338,7 @@ circle{
     transform-origin: 50%;
     stroke-linecap: round;
     animation: rellenar 1s linear forwards;
+    animation-delay: 5.5s;
 }
 
 /************************porcentaje**************************************/
@@ -452,4 +461,11 @@ circle{
 .text_descrip1{
     margin-left: 7.5vw;
     margin-top: 0.5vw;
+}
+.button{
+    border: 1px solid #FF6F2C;
+    width: 17.5vw;
+    height: 3.646vw;
+    position: absolute;
+    margin-left: 30vw;
 }
