@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progreso Circular Animado</title>
+    <title>Progreso Circular Dinámico</title>
     <style>
         :root {
-            --progress: 31; /* Valor de progreso (0-100) */
+            --progress: 31%; /* Cambia este valor para modificar el porcentaje (0-100) */
         }
 
         .progress-container {
@@ -25,12 +25,13 @@
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            background: conic-gradient(hsl(calc(120 * var(--progress) / 100), 100%, 50%) calc(var(--progress) * 1%), lightgray 0);
+            background: conic-gradient(
+                hsl(calc(120 * var(--progress) / 100), 100%, 50%) calc(var(--progress) * 1%), 
+                lightgray 0);
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
-            animation: spin 2s linear infinite;
         }
 
         .progress-circle::before {
@@ -40,29 +41,23 @@
             height: 60px;
             background: white;
             border-radius: 50%;
-            z-index: 2; /* Asegura que quede por encima del progreso */
         }
 
         .progress-text {
             position: absolute;
-            z-index: 3; /* Se mantiene sobre todo */
-            transform: rotate(-0deg); /* Fija el texto */
+            z-index: 2;
         }
 
-        /* Animación de rotación */
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .progress-text::after {
+            content: var(--progress) "%";
         }
     </style>
 </head>
 <body>
-
-    <div class="progress-container" data-progress="31">
-        <div class="progress-circle"></div>
-        <span class="progress-text">31%</span>
+    <div class="progress-container">
+        <div class="progress-circle">
+            <span class="progress-text">31%</span>
+        </div>
     </div>
-
 </body>
 </html>
-

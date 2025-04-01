@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progreso Circular Dinámico</title>
+    <style>
+        .progress-container {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .progress-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: lightgray; /* Fallback para evitar desaparición */
+        }
+
+        .progress-circle::before {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 50%;
+        }
+
+        .progress-text {
+            position: absolute;
+            z-index: 2;
+        }
+
+        /* Generar clases dinámicas para diferentes porcentajes */
+        [data-progress="0"] .progress-circle { background: conic-gradient(hsl(0, 100%, 50%) 0%, lightgray 0); }
+        [data-progress="0"] .progress-text::after { content: "0%"; }
+
+        [data-progress="25"] .progress-circle { background: conic-gradient(hsl(30, 100%, 50%) 25%, lightgray 0); }
+        [data-progress="25"] .progress-text::after { content: "25%"; }
+
+        [data-progress="50"] .progress-circle { background: conic-gradient(hsl(60, 100%, 50%) 50%, lightgray 0); }
+        [data-progress="50"] .progress-text::after { content: "50%"; }
+
+        [data-progress="75"] .progress-circle { background: conic-gradient(hsl(90, 100%, 50%) 75%, lightgray 0); }
+        [data-progress="75"] .progress-text::after { content: "75%"; }
+
+        [data-progress="100"] .progress-circle { background: conic-gradient(hsl(120, 100%, 50%) 100%, lightgray 0); }
+        [data-progress="100"] .progress-text::after { content: "100%"; }
+    </style>
+</head>
+<body>
+    <div class="progress-container" data-progress="0">
+        <div class="progress-circle">
+            <span class="progress-text"></span>
+        </div>
+    </div>
+    
+    <div class="progress-container" data-progress="25   ">
+        <div class="progress-circle">
+            <span class="progress-text"></span>
+        </div>
+    </div>
+    
+    <div class="progress-container" data-progress="50">
+        <div class="progress-circle">
+            <span class="progress-text"></span>
+        </div>
+    </div>
+    
+    <div class="progress-container" data-progress="75">
+        <div class="progress-circle">
+            <span class="progress-text"></span>
+        </div>
+    </div>
+    
+    <div class="progress-container" data-progress="100">
+        <div class="progress-circle">
+            <span class="progress-text"></span>
+        </div>
+    </div>
+</body>
+</html>
