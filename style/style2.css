@@ -27,8 +27,13 @@
         background-repeat: no-repeat;}
     100%{background-color: white;}
 }*/
+@keyframes rellenar {
+    to{
+        stroke-dasharray: var(--porcentaje) 100
+    }
+}
 body{
-    background-color: white;
+    background-color: white;    
     animation: back 5s ease-in-out;
 }
 .logo{
@@ -320,10 +325,11 @@ circle{
     fill: none;
     stroke: var(--color);
     stroke-width: 0.2vw;
-    stroke-dasharray: var(--porcentaje) 100;
+    stroke-dasharray: 0 100;
     transform: rotate(-90deg);
     transform-origin: 50%;
     stroke-linecap: round;
+    animation: rellenar 1s linear forwards;
 }
 
 /************************porcentaje**************************************/
