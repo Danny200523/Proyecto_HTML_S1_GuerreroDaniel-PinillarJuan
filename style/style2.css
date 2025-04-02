@@ -1,5 +1,5 @@
 @import url('./variables.css');
-/*@keyframes op {
+@keyframes op {
     0%{
         transform: (0.5);
         opacity: 1;
@@ -36,7 +36,7 @@
     0%{opacity: 0;}
     80%{opacity: 0;}
     100%{opacity: 1;}
-}*/
+}
 .todo{
     animation: fade 6s;
 }
@@ -469,4 +469,65 @@ circle{
     color: white;
     padding-top:6%;
     font-size: 1.5vw;
+}
+@media(max-width:430px){
+    @keyframes back{
+        0%{ background-color: black;
+            background-image: url('../img/fondo.png');
+            background-size: 100vw 220vw;
+            background-repeat: no-repeat;
+    }
+        96%{background-color: black;
+            background-image: url('../img/fondo.png');
+            background-size: 100vw 220vw;
+            background-repeat: no-repeat;}
+        100%{background-color: white;}
+    }
+    .logo{
+        width: 40vw;
+        margin-left: 30vw;
+        margin-top: 75vw;
+        opacity: 0;
+        animation: dis 2s ease-in-out 3s forwards;
+    }
+    .welcome{
+        width: 85vw;
+        height: 85vw;
+        border: 1px solid #707070;
+        border-radius: 3vw;
+        margin-left: 5vw;
+        margin-top: -50vw;
+        background-color: white;
+        opacity: 0;
+        animation: op 4s ease-in-out forwards;
+        animation-iteration-count: 1;
+    }
+    .img1-1{
+        width: 17vw;
+        margin-left: 35vw;
+        margin-top: 5vw;
+    }
+    .text1-1{
+        font-size: 4vw;
+        margin-left: 37vw;
+    }
+    .text8{
+        font-size: 6vw;
+        text-align: center;
+        margin-top: 2vw;
+    }
+    .img2{
+        margin-left: 30vw;
+        margin-top: 0.6vw;
+        width: 25vw;
+    }
+    .text9{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .text10{
+        font-size: 3vw;
+        text-align: center;
+        margin-top: 1vw;
+    }
 }
