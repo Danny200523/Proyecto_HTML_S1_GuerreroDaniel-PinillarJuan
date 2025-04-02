@@ -1,5 +1,5 @@
 @import url('./variables.css');
-/*@keyframes logo {
+@keyframes logo {
     0%{opacity: 1;}
     10%{opacity: 1;}
     20%{opacity: 0;}
@@ -16,7 +16,7 @@
 @keyframes op {
     0%{opacity: 1;}
     100%{opacity: 0;}    
-}*/
+}
 body{
     background-color: black;
     background-image: url('../img/fondo.png');
@@ -25,6 +25,12 @@ body{
 }
 a{
     text-decoration: none;
+}
+.agree{
+    display: none;
+}
+.agreep{
+    display: none;
 }
 .logo{
     width: 10.24vw;
@@ -145,13 +151,13 @@ a{
     }
     .img1{
         width: 25vw;
-        margin-left: 40vw;
+        margin-left: 36vw;
         margin-top: 10vw;
     }
     .text1{
         font-size: 4vw;
         letter-spacing: 0.5vw;
-        margin-left: 46vw;
+        margin-left: 42vw;
         margin-top: 2vw;
     }
     .text2{
@@ -166,8 +172,10 @@ a{
         margin-top: 8vw;
     }
     .text4{
-        font-size: 4vw;
-        margin-top: 15vw;
+
+        font-size: 5vw;
+        margin-top: 7vw;
+
         margin-left: 13vw;
     }
     .box1{
@@ -178,8 +186,10 @@ a{
         margin-top: 3vw;
     }
     .text5{
-        font-size: 4vw;
-        margin-top: 15vw;
+
+        font-size: 5vw;
+        margin-top: 7vw;
+
         margin-left: 13vw;
     }
     .box2{
@@ -189,16 +199,37 @@ a{
         margin-left: 10vw;
         margin-top: 3vw;
     }
+
+    .agree{
+        display: block;
+        font-size: 2vw;
+        margin-top: 3vw;
+        padding-right: 10vw;
+    }
+    .check{
+        margin-left: 15vw;
+    }
+    .agreep{
+        display: flex;
+        margin-top: 3vw;
+        margin-left: -5vw;
+    }
+    .agreep1{
+        display: flex;
+        margin-top: 3vw;
+        margin-left: -5vw;
+    }
     .box3{
-        width: 65VW;
-        height: 5vw;
-        margin-left: 16vw;
-        margin-top: 35vw;
+        width: 70VW;
+        height: 7vw;
+        border-radius: 4vw;
+        margin-left: 12vw;
+        margin-top: 15vw;
     }
     .text6{
-        font-size: 4vw;
+        font-size: 5vw;
         text-align: center;
-        margin-top: 0.8vw;
+        margin-top: vw;
     }
     .text7{
         font-size: 2vw;
