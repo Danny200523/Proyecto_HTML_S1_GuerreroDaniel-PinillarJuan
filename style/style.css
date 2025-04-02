@@ -122,20 +122,8 @@ a{
     margin-top: 1.87vw;
 }
 @media(max-width:430px){
-    @keyframes logo {
-        0%{opacity: 1;}
-        10%{opacity: 1;}
-        30%{opacity: 0;}
-        70%{opacity: 0;}
-        80%{opacity: 1;}
-        95%{opacity: 1;}
-        100%{opacity: 0;}
-    }
     body{
-        background-color: black;
-        background-image: url('../img/fondo.png');
         background-size: 100vw 220vw;
-        background-repeat: no-repeat;
     }
     .logo{
         width: 20vw;
@@ -144,15 +132,77 @@ a{
         animation: logo 7s;
         animation-iteration-count: 1;
         opacity: 0;
+        position: absolute;
     }
     .texts{
-        margin-top: -70vw;
-        margin-left: 14vw;
-        width: 70vw;
-        height: 120vw;
-        border: solid #707070;
-        border-radius: 3.49vw;
+        width: 95vw;
+        height: 190vw;
         background-color: #FFFF;
         position: absolute;
+        border-radius: 4vw;
+        margin-top: 10vw;
+        margin-left: 0.5vw;
+    }
+    .img1{
+        width: 25vw;
+        margin-left: 40vw;
+        margin-top: 10vw;
+    }
+    .text1{
+        font-size: 4vw;
+        letter-spacing: 0.5vw;
+        margin-left: 46vw;
+        margin-top: 2vw;
+    }
+    .text2{
+        font-size: 7vw;
+        text-align: center;
+        margin-top: 0.5vw;
+        margin-top: 5vw;
+    }
+    .text3{
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 8vw;
+    }
+    .text4{
+        font-size: 4vw;
+        margin-top: 15vw;
+        margin-left: 13vw;
+    }
+    .box1{
+        width: 75vw;
+        height: 6vw;
+        border-radius: 5vw;
+        margin-left: 10vw;
+        margin-top: 3vw;
+    }
+    .text5{
+        font-size: 4vw;
+        margin-top: 15vw;
+        margin-left: 13vw;
+    }
+    .box2{
+        width: 75vw;
+        height: 6vw;
+        border-radius: 5vw;
+        margin-left: 10vw;
+        margin-top: 3vw;
+    }
+    .box3{
+        width: 65VW;
+        height: 5vw;
+        margin-left: 16vw;
+        margin-top: 35vw;
+    }
+    .text6{
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 0.8vw;
+    }
+    .text7{
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 1.87vw;
     }
 }
