@@ -278,19 +278,19 @@ body{
 .indicador1{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-left: 0vw;
     display: flex;
 }
 .text_modelado{
     margin-top: 0.5vw;
 }
 .text_descrip{
-    margin-left: 8vw;
+    margin-left: 9vw;
     margin-top: 0.5vw;
 }
 .text_cate{
@@ -314,8 +314,24 @@ body{
     margin-top: 0.5vw;
 }
 .porcentaje{
-    margin-left: 5.5vw;
+    margin-left: 5.3vw;
     position: relative;
+}
+.porcentaje1{
+    margin-left: 5vw;
+    position: relative;
+}
+.porcentaje1 span{
+    font-size: 0.7vw;
+    font-family: "pror";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .porcentaje span{
     font-size: 0.7vw;
@@ -340,58 +356,8 @@ circle{
     animation: rellenar 1s linear forwards;
     animation-delay: 5.5s;
 }
-
-/************************porcentaje**************************************/
-:root {
-            --progress: 31; /* Cambia este valor para modificar el porcentaje (0-100) */
-        }
-
-        .progress-container {
-            position: relative;
-            width: 2vw;
-            height: 2vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            margin-left: 6vw;
-        }
-
-        .progress-circle {
-            width: 2vw;
-            height: 2vw;
-            border-radius: 50%;
-            background: conic-gradient(
-                hsl(calc(120 * var(--progress) / 100), 100%, 50%) calc(var(--progress) * 1%), 
-                lightgray 0);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        .progress-circle::before {
-            content: "";
-            position: absolute;
-            width: 1.3vw;
-            height: 1.3vw;
-            background: white;
-            border-radius: 50%;
-        }
-
-        .progress-text {
-            position: absolute;
-            z-index: 2;
-        }
-
-        .progress-text::after {
-            content: var(--progress) "%";
-        }
-/*********************************************************************/
 .text_are{
-    margin-left: 4.5vw;
+    margin-left: 6vw;
     margin-top: 0.3vw;
 }
 .img--BarraLateral{
@@ -406,66 +372,94 @@ circle{
 .indicador2{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 1vw;
-    margin-left: 1vw;
     display: flex;
 }
 .indicador3{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 1vw;
-    margin-left: 1vw;
     display: flex;
 }
 .indicador4{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 1vw;
-    margin-left: 1vw;
     display: flex;
 }
 .indicador5{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 1vw;
-    margin-left: 1vw;
     display: flex;
 }
 .indicador6{
     font-family: "prol";
     font-size: 1vw;
-    width: 78vw;
+    width: 83vw;
     border: 1px solid #707070;
     border-radius: 1vw;
     padding: 1vw;
     margin-top: 1vw;
-    margin-left: 1vw;
     display: flex;
 }
 .text_descrip1{
-    margin-left: 7.5vw;
+    margin-left: 9vw;
     margin-top: 0.5vw;
+}
+.text_cate1{
+    margin-left: 5.8vw;
+    margin-top: 0.5vw;
+}
+.text_fechaI1{
+    margin-left: 5vw;
+    margin-top: 0.5vw;
+}
+.text_fechaF1{
+    margin-left: 5.9vw;
+    margin-top: 0.5vw;
+}
+.text_Form1{
+    margin-left: 4.9vw; 
+    margin-top: 0.5vw;
+}
+.text_frec1{
+    margin-left: 3.8vw;
+    margin-top: 0.5vw;
+}
+.text_are1{
+    margin-left: 6vw;
+    margin-top: 0.3vw;
 }
 .button{
     border: 1px solid #FF6F2C;
+    border-radius: 5vw;
     width: 17.5vw;
     height: 3.646vw;
     position: absolute;
-    margin-left: 30vw;
+    margin-left: 42vw;
+    margin-top: 7vw;
+    background-color: #FF6F2C;
+}
+.button div{
+    text-align: center;
+    color: white;
+    padding-top:6%;
+    font-size: 1.5vw;
 }
