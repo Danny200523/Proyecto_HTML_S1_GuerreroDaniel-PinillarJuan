@@ -288,29 +288,35 @@ body{
 }
 .text_modelado{
     margin-top: 0.5vw;
+    width: 10vw;
 }
 .text_descrip{
-    margin-left: 9vw;
+    margin-left: 5vw;
     margin-top: 0.5vw;
+    width: 11vw;
 }
 .text_cate{
-    margin-left: 6.5vw;
+    margin-left: 2vw;
     margin-top: 0.5vw;
+    width: 1vw;
 }
 .text_fechaI{
     margin-left: 5vw;
     margin-top: 0.5vw;
+    width: 5vw;
 }
 .text_fechaF{
-    margin-left: 5.7vw;
+    margin-left: 5vw;
     margin-top: 0.5vw;
+    width: 5vw;
 }
 .text_Form{
-    margin-left: 4.8vw; 
+    margin-left: 3.4vw; 
     margin-top: 0.5vw;
+    width: 4vw;
 }
 .text_frec{
-    margin-left: 3.6vw;
+    margin-left: 3vw;
     margin-top: 0.5vw;
 }
 .porcentaje{
@@ -353,7 +359,7 @@ circle{
     transform: rotate(-90deg);
     transform-origin: 50%;
     stroke-linecap: round;
-    animation: rellenar 1s linear forwards;
+    animation: rellenar 1s ease  forwards;
     animation-delay: 5.5s;
 }
 .text_are{
