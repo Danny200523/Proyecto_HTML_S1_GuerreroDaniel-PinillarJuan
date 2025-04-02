@@ -1,5 +1,5 @@
 @import url('./variables.css');
-@keyframes op {
+/*@keyframes op {
     0%{
         transform: (0.5);
         opacity: 1;
@@ -36,7 +36,7 @@
     0%{opacity: 0;}
     80%{opacity: 0;}
     100%{opacity: 1;}
-}
+}*/
 .todo{
     animation: fade 6s;
 }
@@ -288,30 +288,37 @@ body{
 }
 .text_modelado{
     margin-top: 0.5vw;
+    width: 10vw;
 }
 .text_descrip{
-    margin-left: 9vw;
+    margin-left: 5vw;
     margin-top: 0.5vw;
+    width: 10vw;
 }
 .text_cate{
-    margin-left: 6.5vw;
+    margin-left: 3.5vw;
     margin-top: 0.5vw;
+    width: 1vw;
 }
 .text_fechaI{
     margin-left: 5vw;
     margin-top: 0.5vw;
+    width: 5vw;
 }
 .text_fechaF{
-    margin-left: 5.7vw;
+    margin-left: 4vw;
     margin-top: 0.5vw;
+    width: 5vw;
 }
 .text_Form{
-    margin-left: 4.8vw; 
+    margin-left: 4vw; 
     margin-top: 0.5vw;
+    width: 5vw;
 }
 .text_frec{
-    margin-left: 3.6vw;
+    margin-left: 2vw;
     margin-top: 0.5vw;
+    width: 1vw;
 }
 .porcentaje{
     margin-left: 5.3vw;
