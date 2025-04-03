@@ -148,11 +148,13 @@ body{
     font-family: "pror";
 }
 .img_logo{
-    margin-top: -1.3vw;
+    margin-top: -1.5vw;
     margin-left: 14.5vw;
     padding-bottom: 0.6vw;
     padding-top: -1vw;
     object-fit: cover;
+    width: 1.8vw; 
+    height: auto; 
 }
 .img_reportar{
     width: 1.3vw;

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Indicador</title>
+    <link rel="stylesheet" href="style/styles-add.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            
+        </div>
+        <nav class="nav-buttons" style="gap: 100px;">
+            <a href="add.html" class="nav-button"> 
+                <img class="img_add" src="./img/img_add.svg">
+                <div class="text_añadir">Añadir</div>
+            </a>
+            <a href="eliminar.html" class="nav-button">
+                <img src="img/recargar.svg" alt="Icono refrescar">
+                <span>Refrescar</span>
+            </a>
+            <a href="eliminar.html" class="nav-button"> 
+                <img class="img_add" src="./img/eliminar.svg">
+                <div class="text_añadir">Eliminar</div>
+            </a>
+
+            <a href="index2.html">
+                <img class="img_logo" src="./img/logo.svg" class = "nav-button" >
+            </a>
+
+            <a href="reportar.html" class="nav-button">
+                <img src="img/reportar.svg" alt="Icono reportar">
+                <span>Reportar</span>
+            </a>
+            <a href = "ayuda.html"class="nav-button">
+                <img src="img/soporte.svg" alt="Icono ayuda">
+                <span>Ayuda</span>
+            </a>
+        </nav>
+        <div class="header-controls">
+            <div class="control-icon">
+          <img src="img/configuration.svg" alt="Icono 1">
+            </div>
+            <div class="control-icon">
+          <img src="img/notificaciones.svg" alt="Icono 2">
+            </div>
+            <div class="user-avatar">
+              <img src="img/pedro.png" alt="Avatar de usuario">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="delete-header">
+            <h1>Eliminar Indicador</h1>
+            <p class="subtitle">Seleccione el indicador que desea eliminar</p>
+        </div>
+
+        <div class="indicators-table-container">
+            <table class="indicators-table">
+                <thead>
+                    <tr>
+                        <th>Indicador</th>
+                        <th>Descripción</th>
+                        <th>Categoría</th>
+                        <th>Fecha de inicio</th>
+                        <th>Fecha de Terminación</th>
+                        <th>Fórmula</th>
+                        <th>Frecuencia</th>
+                        <th>Cumplimiento</th>
+                        <th>Área</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Modelado 3D</td>
+                        <td>Interés por dise...</td>
+                        <td><span class="category-badge baja">Baja</span></td>
+                        <td>12/05/21</td>
+                        <td>12/12/21</td>
+                        <td>Met.Agil</td>
+                        <td>1/4</td>
+                        <td><span class="compliance">81%</span></td>
+                        <td>Marketing</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>Finca Galeón</td>
+                        <td>Diseño de maque...</td>
+                        <td><span class="category-badge baja">Baja</span></td>
+                        <td>12/04/21</td>
+                        <td>12/05/21</td>
+                        <td>Met.Agil</td>
+                        <td>1/4</td>
+                        <td><span class="compliance">69%</span></td>
+                        <td>Diseño</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>Colegios Privados</td>
+                        <td>Se busca llegar a los...</td>
+                        <td><span class="category-badge media">Media</span></td>
+                        <td>24/04/21</td>
+                        <td>12/11/21</td>
+                        <td>Met.Fibo</td>
+                        <td>1/4</td>
+                        <td><span class="compliance">69%</span></td>
+                        <td>Developers</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>Electrodomésticos</td>
+                        <td>Ventas de electro...</td>
+                        <td><span class="category-badge media">Media</span></td>
+                        <td>12/04/21</td>
+                        <td>12/09/21</td>
+                        <td>N/A</td>
+                        <td>1/3</td>
+                        <td><span class="compliance">92%</span></td>
+                        <td>Gerencia</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>Estado 2 - Floridablanca</td>
+                        <td>Impacto en los sec...</td>
+                        <td><span class="category-badge alta">Alta</span></td>
+                        <td>12/04/21</td>
+                        <td>12/09/21</td>
+                        <td>Met.Espo</td>
+                        <td>1/4</td>
+                        <td><span class="compliance">95%</span></td>
+                        <td>Marketing</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>Jóvenes en Acción</td>
+                        <td>Impacto en los sec...</td>
+                        <td><span class="category-badge alta">Alta</span></td>
+                        <td>15/02/21</td>
+                        <td>09/11/21</td>
+                        <td>Met.Espo</td>
+                        <td>1/2</td>
+                        <td><span class="compliance">75%</span></td>
+                        <td>Producción</td>
+                        <td><button class="nav-button">
+                            <img src="img/garbage-svgrepo-com.svg" alt="Icono eliminar">
+                        </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

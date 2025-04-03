@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="text-align: center;">Añadir Indicador</title>
+    <link rel="stylesheet" href="style/styles-add.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            
+        </div>
+        <nav class="nav-buttons" style="gap: 100px;"> <!-- Aumenta el espacio entre los elementos -->
+            <a href="add.html" class="nav-button"> 
+                <img class="img_add" src="./img/img_add.svg">
+                <div class="text_añadir">Añadir</div>
+            </a>
+            <a href="add.html" class="nav-button">
+                <img src="img/recargar.svg" alt="Icono refrescar">
+                <span>Refrescar</span>
+            </a>
+            <a href="eliminar.html" class="nav-button"> 
+                <img class="img_add" src="./img/eliminar.svg">
+                <div class="text_añadir">Eliminar</div>
+            </a>
+
+            <a href="index2.html">
+                <img class="img_logo" src="./img/logo.svg" class = "nav-button" >
+            </a>
+
+            <a href="reportar.html" class="nav-button">
+                <img src="img/reportar.svg" alt="Icono reportar">
+                <span>Reportar</span>
+            </a>
+            <a href = "ayuda.html"class="nav-button">
+                <img src="img/soporte.svg" alt="Icono ayuda">
+                <span>Ayuda</span>
+            </a>
+        </nav>
+        <div class="header-controls">
+            <div class="control-icon">
+          <img src="img/configuration.svg" alt="Icono 1">
+            </div>
+            <div class="control-icon">
+          <img src="img/notificaciones.svg" alt="Icono 2">
+            </div>
+            <div class="user-avatar">
+              <img src="img/pedro.png" alt="Avatar de usuario">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <button class="back-button">
+            <span class="arrow-icon">←</span>
+            <span>Volver</span>
+        </button>
+
+        <div class="form-header">
+            <h1>Añadir Indicador</h1>
+            <p class="subtitle">Completa los campos para agregar un nuevo proyecto.</p>
+        </div>
+
+        <form class="indicator-form">
+            <div class="form-columns">
+                <div class="form-left-column">
+                    <div class="form-group">
+                        <label for="indicator-name">Indicador:</label>
+                        <input type="text" id="indicator-name" placeholder="Escribe aquí el nombre del indicador" required>
+                        <div class="input-underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="indicator-description">Descripción:</label>
+                        <textarea id="indicator-description" placeholder="Inserta una breve descripción..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="indicator-category">Seleccionar categoría:</label>
+                        <div class="custom-select">
+                            <select id="indicator-category" required>
+                                <option value="" disabled selected>Select</option>
+                                <option value="baja">Baja</option>
+                                <option value="media">Media</option>
+                                <option value="alta">Alta</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="start-date">Fecha de inicio:</label>
+                            <div class="date-input">
+                                <input type="text" id="start-date" placeholder="DD/MM/AA" required>
+                                <span class="calendar-icon">📅</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="end-date">Fecha de Terminación:</label>
+                            <div class="date-input">
+                                <input type="text" id="end-date" placeholder="DD/MM/AA" required>
+                                <span class="calendar-icon">📅</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-right-column">
+                    <div class="form-group">
+                        <label for="formula">Seleccionar fórmula:</label>
+                        <div class="custom-select">
+                            <select id="formula" required>
+                                <option value="" disabled selected>Select</option>
+                                <option value="metagil">MetÁgil</option>
+                                <option value="metfibo">MetFibo</option>
+                                <option value="metespo">MetEspo</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="frequency">Seleccione la frecuencia de periodicidad:</label>
+                        <div class="custom-select">
+                            <select id="frequency" required>
+                                <option value="" disabled selected>Select</option>
+                                <option value="1/2">1/2</option>
+                                <option value="1/3">1/3</option>
+                                <option value="1/4">1/4</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="compliance">Seleccione el cumplimiento del indicador:</label>
+                        <p class="input-hint">Ingrese el porcentaje del indicador de cumplimiento, ejemplo: [80%]</p>
+                        <input type="text" id="compliance" placeholder="Ejemplo: 80%" required>
+                        <div class="input-underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="work-area">Área campo de trabajo</label>
+                        <p class="input-hint">Ingresa el Área de trabajo correspondiente</p>
+                        <input type="text" id="work-area" required>
+                        <div class="input-underline"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-button">Añadir Indicador</button>
+        </form>
+    </main>
+</body>
+</html>
