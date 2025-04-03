@@ -536,4 +536,375 @@ circle{
         text-align: center;
         margin-top: 1vw;
     }
+    .underline{
+        width: 30vw;
+        height: 218vw;
+        display: flex;  
+        background-color: red;
+        margin-top: -150.3vw;
+        margin-left: -1.8vw;
+        border: none;
+        position: none;
+    }
+    .img_pedro{   
+        margin-left: 1vw;
+        margin-top: 6vw;
+        position: absolute;
+        object-fit: none;
+    }
+    .img_settings{
+        width: 3vw;
+        height: 3vw;
+        margin-left: -42vw;
+        margin-top: 7vw;
+        position: relative;
+    }
+    .img_notifications{
+        width: 3vw;
+        margin-top: 3vw;
+        margin-left: 2vw;
+        position: relative;
+    }
+    .img_add{
+        width: 7.5vw;
+        height: 7.5vw;
+        margin-top: 20vw;
+        margin-left: 2.5vw;
+        position: relative;
+        object-fit: none;
+    }
+    .text_añadir{
+        margin-top: -6vw;
+        margin-left: 11vw;
+        position: relative;
+        font-size: 3.7vw;
+    }
+    .img_recargar{
+        width: 4vw;
+        position: relative;
+        top: 35vw;
+        left: 3vw;
+    }
+    .text12{
+        position: relative;
+        top: 30vw;
+        left: 9vw;
+        font-size: 3.7vw;
+    }
+    .img_eliminar{
+        position: relative;
+        width: 4vw;
+        top: 50vw;
+        left: -11vw ;
+    }
+    .text13{
+        position: relative;
+        top: 44.5vw;
+        left: -5vw;
+        font-size: 3.7vw;
+    }
+    .img_logo{
+        width: 6vw;
+        position: relative;
+        left: -4vw;
+        top: 1.5vw;
+    }
+    .img_reportar{
+        width: 5vw;
+        position: relative;
+        top: 68vw;
+        left: -30vw;
+    }
+    .text14{
+        position: relative;
+        top: 62vw;
+        left: -23vw;
+        font-size: 3.7vw;
+    }
+    .img_soporte{
+        width: 5vw;
+        position: relative;
+        top: 88vw;
+        left: -43vw;
+    }
+    .text_soporte{
+        position: relative;
+        top: 82.5vw;
+        left: -36vw;
+        font-size: 3.7vw;
+    }
+    .titulos .text_title{
+        font-family: "pror";
+        font-size: 2.083vw;
+        margin-top: -38vw;
+        margin-left: 41vw;
+        position: absolute;
+    }
+    .titulos .text_subtitle{
+        font-family: "prol";
+        font-size: 1.25vw;
+        margin-top: -34vw;
+        margin-left: 29vw;
+        position: absolute;
+    }
+    .menú{
+        display: flex;
+        width: 85vw;
+        margin-left: 9vw;
+        margin-top: -30vw;
+        position: absolute;
+    }
+    .text_indicador{
+        font-family: "pror";
+        font-size: 1vw;
+    }
+    .text_description{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 10vw;
+    }
+    .text_categoria{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 7vw;
+    }
+    .text_Fecha_de_Inicio{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+    .text_Fecha_de_Terminación{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+    .text_Formula{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+    .text_Frecuencia{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+    .text_Cumplimiento{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+    .text_Area{
+        font-family: "pror";
+        font-size: 1vw;
+        margin-left: 4vw;
+    }.indicadores{
+        width: 90vw;
+        margin-left: 7vw;
+        margin-top: -28.4vw;
+        position: absolute;
+    }
+    .flex{
+        display: flex;
+    }
+    .indicador1{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 0.5vw;
+        margin-left: 0vw;
+        display: flex;
+    }
+    .text_modelado{
+        margin-top: 0.5vw;
+        width: 10vw;
+    }
+    .text_descrip{
+        margin-left: 5vw;
+        margin-top: 0.5vw;
+    
+        width: 10vw;
+    }
+    .text_cate{
+        margin-left: 3.5vw;
+    
+        margin-top: 0.5vw;
+        width: 1vw;
+    }
+    .text_fechaI{
+        margin-left: 5vw;
+        margin-top: 0.5vw;
+        width: 5vw;
+    }
+    .text_fechaF{
+    
+        margin-left: 4vw;
+    
+        margin-top: 0.5vw;
+        width: 5vw;
+    }
+    .text_Form{
+    
+        margin-left: 4vw; 
+        margin-top: 0.5vw;
+        width: 5vw;
+    }
+    .text_frec{
+        margin-left: 2vw;
+    
+        margin-top: 0.5vw;
+        width: 1vw;
+    }
+    .porcentaje{
+        margin-left: 5.3vw;
+        position: relative;
+    }
+    .porcentaje1{
+        margin-left: 5vw;
+        position: relative;
+    }
+    .porcentaje1 span{
+        font-size: 0.7vw;
+        font-family: "pror";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .porcentaje span{
+        font-size: 0.7vw;
+        font-family: "pror";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    circle{
+        fill: none;
+        stroke: var(--color);
+        stroke-width: 0.2vw;
+        stroke-dasharray: 0 100;
+        transform: rotate(-90deg);
+        transform-origin: 50%;
+        stroke-linecap: round;
+        animation: rellenar 1s ease  forwards;
+        animation-delay: 5.5s;
+    }
+    .text_are{
+        margin-left: 6vw;
+        margin-top: 0.3vw;
+    }
+    .img--BarraLateral{
+        margin-left: 1vw;
+        width: 2vw;
+    }
+    .img--BarraLateral1{
+        margin-left: 1vw;
+        margin-top: 0.7vw;
+        width: 2vw;
+    }
+    .indicador2{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 1vw;
+        display: flex;
+    }
+    .indicador3{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 1vw;
+        display: flex;
+    }
+    .indicador4{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 1vw;
+        display: flex;
+    }
+    .indicador5{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 1vw;
+        display: flex;
+    }
+    .indicador6{
+        font-family: "prol";
+        font-size: 1vw;
+        width: 83vw;
+        border: 1px solid #707070;
+        border-radius: 1vw;
+        padding: 1vw;
+        margin-top: 1vw;
+        display: flex;
+    }
+    .text_descrip1{
+        margin-left: 9vw;
+        margin-top: 0.5vw;
+    }
+    .text_cate1{
+        margin-left: 5.8vw;
+        margin-top: 0.5vw;
+    }
+    .text_fechaI1{
+        margin-left: 5vw;
+        margin-top: 0.5vw;
+    }
+    .text_fechaF1{
+        margin-left: 5.9vw;
+        margin-top: 0.5vw;
+    }
+    .text_Form1{
+        margin-left: 4.9vw; 
+        margin-top: 0.5vw;
+    }
+    .text_frec1{
+        margin-left: 3.8vw;
+        margin-top: 0.5vw;
+    }
+    .text_are1{
+        margin-left: 6vw;
+        margin-top: 0.3vw;
+    }
+    .button{
+        border: 1px solid #FF6F2C;
+        border-radius: 5vw;
+        width: 17.5vw;
+        height: 3.646vw;
+        position: absolute;
+        margin-left: 42vw;
+        margin-top: 7vw;
+        background-color: #FF6F2C;
+    }
+    .button div{
+        text-align: center;
+        color: white;
+        padding-top:6%;
+        font-size: 1.5vw;
+    }
 }
