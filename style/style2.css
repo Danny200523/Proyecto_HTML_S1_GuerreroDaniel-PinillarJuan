@@ -1,5 +1,5 @@
 @import url('./variables.css');
-@keyframes op {
+/*@keyframes op {
     0%{
         transform: (0.5);
         opacity: 1;
@@ -36,7 +36,7 @@
     0%{opacity: 0;}
     80%{opacity: 0;}
     100%{opacity: 1;}
-}
+}*/
 .todo{
     animation: fade 6s;
 }
@@ -477,7 +477,7 @@ circle{
     font-size: 1.5vw;
 }
 @media(max-width:430px){
-    @keyframes back{
+    /*@keyframes back{
         0%{ background-color: black;
             background-image: url('../img/fondo.png');
             background-size: 100vw 220vw;
@@ -488,7 +488,7 @@ circle{
             background-size: 100vw 220vw;
             background-repeat: no-repeat;}
         100%{background-color: white;}
-    }
+    }*/
     .logo{
         width: 40vw;
         margin-left: 30vw;
@@ -537,102 +537,114 @@ circle{
         margin-top: 1vw;
     }
     .underline{
-        width: 30vw;
-        height: 218vw;
-        display: flex;  
-        background-color: red;
-        margin-top: -150.3vw;
-        margin-left: -1.8vw;
-        border: none;
-        position: none;
-    }
-    .img_pedro{   
-        margin-left: 1vw;
-        margin-top: 6vw;
+        width: 35vw;
+        height: 200vw;
+        margin-left: -1.9vw;
+        margin-top: -149.3vw;
+        border-bottom: 1px solid #707070;
+        display: flex;
         position: absolute;
-        object-fit: none;
-    }
-    .img_settings{
-        width: 3vw;
-        height: 3vw;
-        margin-left: -42vw;
-        margin-top: 7vw;
-        position: relative;
-    }
-    .img_notifications{
-        width: 3vw;
-        margin-top: 3vw;
-        margin-left: 2vw;
-        position: relative;
+        background-color: red;
     }
     .img_add{
-        width: 7.5vw;
-        height: 7.5vw;
-        margin-top: 20vw;
-        margin-left: 2.5vw;
-        position: relative;
-        object-fit: none;
+        width: 7vw;
+        height: 7vw;
+        margin-top: 22vw;
+        margin-left: 3vw;
+        object-fit: cover;
+        position: absolute;
     }
     .text_añadir{
-        margin-top: -6vw;
-        margin-left: 11vw;
-        position: relative;
-        font-size: 3.7vw;
+        font-size: 5vw;
+        margin-left: 12vw;
+        margin-top: 22.5vw;
+        font-family: "pror";
     }
     .img_recargar{
-        width: 4vw;
-        position: relative;
-        top: 35vw;
-        left: 3vw;
+        width: 7vw;
+        height: 7vw;
+        margin-top: 30vw;
+        margin-left: -23vw;
+        object-fit: cover;
+        position: absolute;
     }
     .text12{
-        position: relative;
-        top: 30vw;
-        left: 9vw;
-        font-size: 3.7vw;
+        font-size: 5vw;
+        margin-left: -14vw;
+        margin-top: 31.5vw;
+        font-family: "pror";
     }
     .img_eliminar{
-        position: relative;
-        width: 4vw;
-        top: 50vw;
-        left: -11vw ;
+        width: 1vw;
+        height: 1.4vw;
+        margin-top: -1.3vw;
+        margin-left: 5vw;
+        object-fit: cover;
+        position: absolute;
     }
     .text13{
-        position: relative;
-        top: 44.5vw;
-        left: -5vw;
-        font-size: 3.7vw;
+        font-size: 1vw;
+        margin-left: 6.5vw;
+        margin-top: -1.1vw;
+        font-family: "pror";
     }
     .img_logo{
-        width: 6vw;
-        position: relative;
-        left: -4vw;
-        top: 1.5vw;
+        width: 7vw;
+        height: 7vw;
+        margin-top: -1.3vw;
+        margin-left: 14.5vw;
+        padding-bottom: 0.6vw;
+        padding-top: -1vw;
+        object-fit: cover;
     }
     .img_reportar{
-        width: 5vw;
-        position: relative;
-        top: 68vw;
-        left: -30vw;
+        width: 1.3vw;
+        margin-top: -1.3vw;
+        margin-left: 14vw;
+        object-fit: cover;
+        position: absolute;
     }
     .text14{
-        position: relative;
-        top: 62vw;
-        left: -23vw;
-        font-size: 3.7vw;
+        font-size: 1vw;
+        margin-left: 16vw;
+        margin-top: -1.1vw;
+        font-family: "pror";
     }
     .img_soporte{
-        width: 5vw;
-        position: relative;
-        top: 88vw;
-        left: -43vw;
+        width: 1.3vw;
+        margin-top: -1.3vw;
+        margin-left: 7vw;
+        object-fit: cover;
+        position: absolute;
     }
     .text_soporte{
-        position: relative;
-        top: 82.5vw;
-        left: -36vw;
-        font-size: 3.7vw;
+        font-size: 1vw;
+        margin-left: 9vw;
+        margin-top: -1.1vw;
+        font-family: "pror";
     }
+    .img_settings{
+        width: 1vw;
+        margin-top: -1vw;
+        margin-left: 93vw;
+        object-fit: cover;
+        position: absolute;
+    }
+    .img_notifications{
+        width: 1vw;
+        margin-top: -1vw;
+        margin-left: 95vw;
+        object-fit: cover;
+        position: absolute;
+    }
+    .img_pedro{
+        width: 2vw;
+        margin-top: -1.5vw;
+        margin-left: 97vw;
+        object-fit: cover;
+        position: absolute;
+    }
+    
     .titulos .text_title{
         font-family: "pror";
         font-size: 2.083vw;
