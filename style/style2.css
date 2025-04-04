@@ -37,6 +37,9 @@
     80%{opacity: 0;}
     100%{opacity: 1;}
 }
+.porcentaje--otro{
+    display: none;
+}
 .container {
     text-align: center;
     margin-top: 5vw;
@@ -376,22 +379,6 @@ body{
 .porcentaje{
     margin-left: 5.3vw;
     position: relative;
-}
-.porcentaje1{
-    margin-left: 5vw;
-    position: relative;
-}
-.porcentaje1 span{
-    font-size: 0.7vw;
-    font-family: "pror";
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .porcentaje span{
     font-size: 0.7vw;
@@ -855,27 +842,20 @@ circle{
         font-size: 3vw;
         padding-left: 33vw;
         margin-top: 0.5vw;
-    }   
+    }
+    /************************************************************************/
     .porcentaje{
+        display: none;
+    }
+    .porcentaje--otro{
+        display: block;
+    }
+    .porcentaje--otro{
+        margin-left: vw;
         position: relative;
     }
-    .porcentaje1{
-        position: relative;
-    }
-    .porcentaje1 span{
-        font-size: 0.7vw;
-        font-family: "pror";
-        position: absolute;
-        top: 0%;
-        bottom: 0%;
-        left: 0%;
-        right: 0%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .porcentaje span{
-        font-size: 0.7vw;
+    .porcentaje--otro span{
+        font-size: 1.5vw;
         font-family: "pror";
         position: absolute;
         top: 0%;
@@ -889,7 +869,7 @@ circle{
     circle{
         fill: none;
         stroke: var(--color);
-        stroke-width: 0.2vw;
+        stroke-width: 1vw;
         stroke-dasharray: 0 100;
         transform: rotate(-90deg);
         transform-origin: 50%;
