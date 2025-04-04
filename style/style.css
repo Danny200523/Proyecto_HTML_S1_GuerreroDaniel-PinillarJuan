@@ -26,6 +26,9 @@ body{
 a{
     text-decoration: none;
 }
+.check{
+    display: none;
+}
 .agree{
     display: none;
 }
@@ -208,6 +211,7 @@ a{
     }
     .check{
         margin-left: 15vw;
+        display: check;
     }
     .agreep{
         display: flex;
