@@ -37,11 +37,7 @@
     80%{opacity: 0;}
     100%{opacity: 1;}
 }*/
-circle{
-    r=0.9vw;
-    cx=50%;
-    cy=50%;
-    pathlength=100;}
+
 svg{
     width:2.1vw;
     height:2.1vw;
@@ -788,20 +784,33 @@ circle{
         padding-left: 33vw;
         margin-top: 0.5vw;
     }
-    circle{
-        r=4vw;
-        cx=50%;
-        cy=50%;
-        pathlength=100;}
     svg{
         width:3vw;
         height:3vw;
     }
+    circle{
+        transform: scale();
+    }
     .porcentaje{
         position: relative;
     }
+    .porcentaje1{
+        position: relative;
+    }
+    .porcentaje1 span{
+        font-size: 0.7vw;
+        font-family: "pror";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .porcentaje span{
-        font-size: 3vw;
+        font-size: 0.7vw;
         font-family: "pror";
         position: absolute;
         top: 0%;
@@ -950,17 +959,17 @@ circle{
     .button{
         border: 1px solid #FF6F2C;
         border-radius: 5vw;
-        width: 17.5vw;
-        height: 3.646vw;
+        width: 50vw;
+        height: 8vw;
         position: absolute;
-        margin-left: 42vw;
-        margin-top: 7vw;
+        margin-left: 21vw;
+        margin-top: 140vw;
         background-color: #FF6F2C;
     }
     .button div{
         text-align: center;
         color: white;
-        padding-top:6%;
-        font-size: 1.5vw;
+        padding-top:2%;
+        font-size: 5vw;
     }
 }
