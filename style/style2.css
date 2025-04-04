@@ -61,11 +61,13 @@
     position: absolute;
 }
 .logout-button {
+    font-size: 1vw;
     z-index: 9999;
     background-color: white;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
     padding: 10px 20px;
     width: 10vw;
+    height: 1.5vw;
     margin-left: 3.8vw;
     margin-top: -4vw;
     color: black;
@@ -502,7 +504,7 @@ circle{
         background-color: white;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
         padding: 10px 20px;
-        width: 20vw;
+        width: 15vw;    
         margin-left: -15vw;
         color: black;
         shape-rendering: 1vw;
