@@ -20,6 +20,11 @@ El proyecto está compuesto por los siguientes archivos:
 - **style/styles-add.css**: Estilos específicos para la página de agregar información.
 - **style/variables.css**: Definición de variables de estilo.
 
+## Figma
+
+- https://www.figma.com/design/A0Z84QYzngrVHzNfGBJNGf/Untitled?node-id=0-1&t=984oAsjBryRO3i13-1
+- Maquetacion de las paginas añadir, eliminar, reportes y ayuda
+
 ### Recursos Adicionales
 - **img/**: Carpeta con imágenes utilizadas en la interfaz.
 - **fonts/**: Fuentes personalizadas utilizadas en el diseño.
