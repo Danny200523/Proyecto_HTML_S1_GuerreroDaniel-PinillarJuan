@@ -1,4 +1,4 @@
-# Proyecto HTML - Guerrero Daniel & Pinillar Juan
+# Proyecto HTML - Guerrero Daniel & Pinilla Juan
 
 ## Descripción
 Este proyecto consiste en un conjunto de páginas web estáticas diseñadas para gestionar información de usuarios. Incluye funcionalidades como agregar, eliminar y reportar datos, así como una sección de ayuda.
